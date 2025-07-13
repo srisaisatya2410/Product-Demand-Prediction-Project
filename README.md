@@ -1,5 +1,5 @@
 # Product-Demand-Prediction-Project
-# 🛒 Product Demand Prediction using Decision Tree Regressor
+#  Product Demand Prediction using Decision Tree Regressor
 
 This project focuses on predicting the weekly number of orders (`num_orders`) for food products using pricing features such as `checkout_price` and `base_price`. It includes data loading, exploration, visualization, model training using a Decision Tree Regressor, and performance evaluation.
 
@@ -24,7 +24,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-**##📥 Data Loading & Exploration**
+## 📥 Data Loading & Exploration 
 # Load dataset
 data = pd.read_csv("https://raw.githubusercontent.com/SatvikPraveen/Food-Forecasting-Analysis-Tableau/main/Weekly%20Demand%20Data.csv")
 
@@ -49,7 +49,7 @@ sns.heatmap(correlations, cmap="coolwarm", annot=True)
 plt.title("Heatmap of Correlations")
 plt.show()
 
-**##🧠 Model Building**
+##🧠 Model Building
 # Predict on test set
 ypred = model.predict(xtest)
 
