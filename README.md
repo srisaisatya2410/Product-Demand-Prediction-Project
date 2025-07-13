@@ -12,7 +12,7 @@ This project focuses on predicting the weekly number of orders (`num_orders`) fo
 
 ---
 
-## 🧪 Libraries Used
+## Procedure
 
 ```python
 import pandas as pd
